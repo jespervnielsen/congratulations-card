@@ -308,8 +308,15 @@ const CongratulationsCard: React.FC<{ onYes: () => void; onNo: () => void }> = (
 
 type View = 'card' | 'success' | 'countdown';
 
+const getInitialView = (): View => {
+  const params = new URLSearchParams(window.location.search);
+  const param = params.get('view');
+  if (param === 'success' || param === 'countdown') return param;
+  return 'card';
+};
+
 export default function App() {
-  const [view, setView] = useState<View>('card');
+  const [view, setView] = useState<View>(getInitialView);
 
   return (
     <main className="min-h-screen bg-yellow-50 text-gray-900 relative">
