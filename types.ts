@@ -4,7 +4,7 @@ export interface ButtonPosition {
   y: number;
 }
 
-export interface ValentineState {
+export interface CardState {
   isAccepted: boolean;
   noCount: number;
   customMessage: string;

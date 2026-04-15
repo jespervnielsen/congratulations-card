@@ -1,5 +1,5 @@
-// List of 20 cute and cheesy Valentine's messages
-const valentineMessages = [
+// List of 20 cute and cheesy congratulations messages
+const sweetMessages = [
   "You make my heart skip a beat! 💖",
   "You're the sprinkles on my cupcake! 🧁",
   "You're the peanut butter to my jelly! 🥜",
@@ -24,6 +24,6 @@ const valentineMessages = [
 
 export const generateSweetNote = async (): Promise<string> => {
   // Return a random message from the list
-  const randomIndex = Math.floor(Math.random() * valentineMessages.length);
-  return valentineMessages[randomIndex];
+  const randomIndex = Math.floor(Math.random() * sweetMessages.length);
+  return sweetMessages[randomIndex];
 };
