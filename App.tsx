@@ -282,7 +282,7 @@ const CongratulationsCard: React.FC<{ onYes: () => void; onNo: () => void }> = (
         <img
           src="https://media.giphy.com/media/xT5P0z1uWDceDQFjWg/giphy.gif"
           alt="Celebration"
-          className="w-48 h-48 mx-auto mb-6 rounded-full border-4 border-yellow-100 shadow-inner"
+          className="w-48 h-48 mx-auto mb-6 rounded-full border-4 border-yellow-100 shadow-inner object-cover"
         />
 
         <h1 className="text-4xl font-bold text-gray-800 mb-8 leading-tight">
