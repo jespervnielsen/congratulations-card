@@ -211,7 +211,7 @@ const CountdownView: React.FC = () => {
         />
 
         <h1 className="text-3xl font-pacifico text-blue-600 mb-2">
-          Nej, nej, nej... 😅
+          Desværre ikke
         </h1>
         <p className="text-lg text-gray-600 mb-6">
           Ninnas årsdag er om:
