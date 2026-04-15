@@ -280,7 +280,7 @@ const CongratulationsCard: React.FC<{ onYes: () => void; onNo: () => void }> = (
     <div className="flex flex-col items-center justify-center min-h-screen p-4 relative z-10">
       <div className="bg-white rounded-3xl p-8 shadow-2xl border-8 border-yellow-200 text-center max-w-md w-full animate-in slide-in-from-bottom-10 duration-700">
         <img
-          src="https://media.giphy.com/media/WK7omsLop0431tZjXb/giphy.gif"
+          src="https://media.giphy.com/media/xT5P0z1uWDceDQFjWg/giphy.gif"
           alt="Celebration"
           className="w-48 h-48 mx-auto mb-6 rounded-full border-4 border-yellow-100 shadow-inner"
         />
