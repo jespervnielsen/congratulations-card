@@ -205,7 +205,7 @@ const CountdownView: React.FC = () => {
         <div className="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-blue-400 via-purple-400 to-blue-400"></div>
 
         <img
-          src="https://media.giphy.com/media/l4FGuhL4U2WyjdkaY/giphy.gif"
+          src="https://media.giphy.com/media/4V3RuU0zSq1SC8Hh4x/giphy.gif"
           alt="Waiting"
           className="w-48 h-48 mx-auto mb-6 rounded-2xl object-cover shadow-lg"
         />
