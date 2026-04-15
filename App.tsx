@@ -172,7 +172,7 @@ const SuccessView: React.FC = () => {
         />
 
         <h1 className="text-4xl font-pacifico text-yellow-600 mb-4 animate-bounce">
-          Tillykke Ninna! 🎉
+          Tillykke Nikita! 🎉
         </h1>
 
         <p className="text-xl text-gray-700 font-semibold mb-6">
@@ -214,7 +214,7 @@ const CountdownView: React.FC = () => {
           Nej, nej, nej... 😅
         </h1>
         <p className="text-lg text-gray-600 mb-6">
-          Ninnas årsdag er om:
+          Nikitas årsdag er om:
         </p>
 
         <div className="grid grid-cols-4 gap-2 mb-6">
@@ -286,7 +286,7 @@ const CongratulationsCard: React.FC<{ onYes: () => void; onNo: () => void }> = (
         />
 
         <h1 className="text-4xl font-bold text-gray-800 mb-8 leading-tight">
-          Har Ninna <br />
+          Har Nikita <br />
           <span className="text-yellow-500 decoration-yellow-300 underline underline-offset-4">årsdag</span>?
         </h1>
 
@@ -332,7 +332,7 @@ export default function App() {
       {view === 'countdown' && <CountdownView />}
 
       <div className="fixed bottom-4 right-4 text-yellow-400 font-medium text-xs pointer-events-none z-50">
-        Lavet med 🎂 til Ninna
+        Lavet med 🎂 til Nikita
       </div>
     </main>
   );
